@@ -1,0 +1,95 @@
+body
+{
+    background-color: #e9dbf3 !important;
+}
+@media (max-width: 991px) {
+    body {
+        background-color: #603573 !important;
+    }
+  }
+body a
+{
+    color: #603573;
+    text-decoration: none;
+    font-weight: 600;
+}
+body a:hover
+{
+    color: #603573;
+    text-decoration: none;
+    font-weight: 600;
+}
+.logimg
+{
+    width: 100% !important;
+}
+.logbg
+{
+    background-color: #ffffff;
+    height: 100vh;
+}
+@media (max-width: 991px) {
+    .logbg {
+        margin-top: 80px !important;
+        background-color: #ffffff;
+        border-radius: 60px 0px 0px 0px;
+        height: 100vh !important;
+    }
+  }
+.logo
+{
+    width: 75px;
+    margin-top: 60px;
+    margin-bottom: 50px;
+}
+@media (max-width: 991px) {
+    .logo {
+        margin-top: 40px;
+        margin-bottom: 20px;
+    }
+  }
+.loginput
+{
+    width: 90%;
+    background-color: #e9dbf3;
+    height: 40px;
+    border-radius: 20px;
+    border-color: transparent;
+    padding-left: 30px;
+} 
+@media (max-width: 991px) {
+    .loginput {
+        width: 100%;
+    }
+  }
+.bttn
+{
+    background-color: #a76ec7;
+    color: #faf7fc;
+    width: 90%;
+    padding: 5px;
+    border-radius: 10px;
+    border-color: transparent; 
+    font-weight: 700;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+@media (max-width: 991px) {
+    .bttn {
+        width: 100%;
+    }
+  }
+.bttn:hover
+{
+    background-color: #8c4faa; 
+}
+.logtxt
+{
+    font-size: 30px;
+    font-weight: 700;
+    padding-bottom: 30px;
+}
+label
+{
+    font-weight: 600;
+}
